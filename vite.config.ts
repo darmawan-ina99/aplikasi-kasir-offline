@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import path from 'path';
 
 export default defineConfig({
+  base: '/aplikasi-kasir-offline/',
   plugins: [
     react(),
     VitePWA({
